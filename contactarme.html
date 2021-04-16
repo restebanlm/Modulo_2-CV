@@ -6,24 +6,28 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
 
-    <body>
-        <div class="contenedor-principal">
+    <body id="body-contactarme">
+        <div class="contenedor-principal contactarme">
             <h2>CONTACTARME</h2>
+            <hr>
             <form>
-                <label for="correo">Correo Electrónico:</label>
+                <label for="correo">CORREO ELECTRÓNICO</label>
                 <br>
-                <input type="email" name="correo" placeholder="Ingrese su correo personal...">
+                <input id="correo" type="email" name="correo" required>
+                <br><br>
+                <label for="mensaje">MENSAJE</label>
                 <br>
-                <label for="mensaje">Mensaje:</label>
-                <br>
-                <textarea name="mensaje" rows="10" cols="30" >
+                <textarea id="textmensaje" name="mensaje" rows="10" cols="30" required>
                 </textarea>
-                    <br><br>
-                <button>VOLVER</button>
-                <input type="submit" value="ENVIAR">
+                <br><br>
+                <button class="boton" id="volver" onclick="volverPrincipal()">VOLVER</button>
+                <button class="boton" id="enviar" onclick="enviarFormulario()">ENVIAR</button>
             </form>
         </div>
+        <footer>
+            <p>Sitio web desarrollado por <a href="https://www.linkedin.com/in/raulestebanlunamercado">Esteban Luna Mercado</a>.</p>
+        </footer>
+        <script src="js/script.js" type="text/javascript"></script>
     </body>
-
-    <!--IMPORTAR FOOTER--> 
+    
 </html>

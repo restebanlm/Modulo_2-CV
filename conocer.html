@@ -6,7 +6,9 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
 
-    <body>
+    <body id="body-conocerme">
+        
+
         <div class="contenedor-inicial">
             <div id="contenedor-imagen">
                 <img src="img/placeholder.png" alt="Imagen de perfil" width="200">
@@ -15,7 +17,7 @@
             <h3>TITULACIÓN O PERFIL PROFESIONAL</h3>    
         </div>
 
-        <div class="contenedor-secundario">
+        <div class="contenedor-secundario conocer">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sapien et elit condimentum venenatis a non tellus. Mauris urna enim, vulputate in purus sit
                 amet, sollicitudin viverra lacus. Maecenas est quam, iaculis eu pulvinar sed, vestibulum at felis. Vivamus varius lobortis velit, et commodo mi
@@ -24,12 +26,12 @@
                 Curabitur placerat enim in lacus gravida dignissim. In eu lacus mauris. In hac habitasse platea dictumst. Nulla facilisi. Praesent rhoncus rutrum turpis
                 sed accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque porta non eros eleifend ultrices.
             </p>
-            <div id="boton"><a href="index.html">INICIO</a></div>
-            <div id="boton"><a href="resources/cv.pdf">DESCARGAR CV</a></div>
-            <div id="boton"><a href="contactarme.html">CONTACTARME</a></div>
+            <a href="index.html" class="boton">INICIO</a>
+            <a href="resources/cv.pdf" class="boton">DESCARGAR CV</a>
+            <a href="contactarme.html" class="boton">CONTACTARME</a>
         </div>
 
-        <h3>EDUCACIÓN</h3>
+        <h2>EDUCACIÓN</h2>
         <div id="conocimiento-lado-izquierdo">
             <h4>TITULO</h4>
             <hr>
@@ -72,79 +74,123 @@
             <h5>FECHA</h5>
         </div>
 
-        <h3>PORTAFOLIO</h3>
+        <h2>PORTAFOLIO</h2>
         
         <div class="experiencia">
             <a href="https://www.github.com">
-                <div id="experiencia-imagen">
-                    <img src="img/placeholder.png" alt="Imagen de proyecto" width="100">
-                </div>
-                <div id="experiencia-contenido">
-                    <h4>PROYECTO 1</h4>
-                    <hr>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis feugiat iaculis.</P>
-                    <h5>FECHA</h5>
-                </div>
+                <table class="guia-tabla" border="1">
+                    <tr>
+                        <td style="width:40%;">
+                            <div id="experiencia-imagen">
+                                <img src="img/placeholder.png" alt="Imagen de proyecto">
+                            </div>
+                        </td>
+                        <td style="width:60%;">
+                            <div id="experiencia-contenido">
+                                <h4>PROYECTO 1</h4>
+                                <hr>
+                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sapien et elit condimentum venenatis a non tellus. Mauris urna enim, vulputate in purus sit amet, sollicitudin viverra lacus. Maecenas est quam, iaculis eu pulvinar sed, vestibulum at felis. Vivamus varius lobortis velit, et commodo mi condimentum sit amet. Suspendisse interdum, arcu id aliquam suscipit, enim lacus varius metus, vitae tincidunt enim dolor eu ante.</P>
+                                <hr>
+                                <h5>FECHA</h5>
+                            </div>
+                        </td>
+                    </tr>        
+                </table>
             </a>
         </div>
 
         <div class="experiencia">
             <a href="https://www.github.com">
-                <div id="experiencia-imagen">
-                    <img src="img/placeholder.png" alt="Imagen de proyecto" width="100">
-                </div>
-                <div id="experiencia-contenido">
-                    <h4>PROYECTO 2</h4>
-                    <hr>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis feugiat iaculis.</P>
-                    <h5>FECHA</h5>
-                </div>
+                <table class="guia-tabla" border="1">
+                    <tr>
+                        <td style="width:40%;">
+                            <div id="experiencia-imagen">
+                                <img src="img/placeholder.png" alt="Imagen de proyecto">
+                            </div>
+                        </td>
+                        <td style="width:60%;">
+                            <div id="experiencia-contenido">
+                                <h4>PROYECTO 2</h4>
+                                <hr>
+                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sapien et elit condimentum venenatis a non tellus. Mauris urna enim, vulputate in purus sit amet, sollicitudin viverra lacus. Maecenas est quam, iaculis eu pulvinar sed, vestibulum at felis. Vivamus varius lobortis velit, et commodo mi condimentum sit amet. Suspendisse interdum, arcu id aliquam suscipit, enim lacus varius metus, vitae tincidunt enim dolor eu ante.</P>
+                                <hr>
+                                <h5>FECHA</h5>
+                            </div>
+                        </td>
+                    </tr>        
+                </table>
             </a>
         </div>
 
         <div class="experiencia">
             <a href="https://www.github.com">
-                <div id="experiencia-imagen">
-                    <img src="img/placeholder.png" alt="Imagen de proyecto" width="100">
-                </div>
-                <div id="experiencia-contenido">
-                    <h4>PROYECTO 3</h4>
-                    <hr>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis feugiat iaculis.</P>
-                    <h5>FECHA</h5>
-                </div>
+                <table class="guia-tabla" border="1">
+                    <tr>
+                        <td style="width:40%;">
+                            <div id="experiencia-imagen">
+                                <img src="img/placeholder.png" alt="Imagen de proyecto">
+                            </div>
+                        </td>
+                        <td style="width:60%;">
+                            <div id="experiencia-contenido">
+                                <h4>PROYECTO 3</h4>
+                                <hr>
+                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sapien et elit condimentum venenatis a non tellus. Mauris urna enim, vulputate in purus sit amet, sollicitudin viverra lacus. Maecenas est quam, iaculis eu pulvinar sed, vestibulum at felis. Vivamus varius lobortis velit, et commodo mi condimentum sit amet. Suspendisse interdum, arcu id aliquam suscipit, enim lacus varius metus, vitae tincidunt enim dolor eu ante.</P>
+                                <hr>
+                                <h5>FECHA</h5>
+                            </div>
+                        </td>
+                    </tr>        
+                </table>
             </a>
         </div>
 
         <div class="experiencia">
             <a href="https://www.github.com">
-                <div id="experiencia-imagen">
-                    <img src="img/placeholder.png" alt="Imagen de proyecto" width="100">
-                </div>
-                <div id="experiencia-contenido">
-                    <h4>PROYECTO 4</h4>
-                    <hr>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis feugiat iaculis.</P>
-                    <h5>FECHA</h5>
-                </div>
+                <table class="guia-tabla" border="1">
+                    <tr>
+                        <td style="width:40%;">
+                            <div id="experiencia-imagen">
+                                <img src="img/placeholder.png" alt="Imagen de proyecto">
+                            </div>
+                        </td>
+                        <td style="width:60%;">
+                            <div id="experiencia-contenido">
+                                <h4>PROYECTO 4</h4>
+                                <hr>
+                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sapien et elit condimentum venenatis a non tellus. Mauris urna enim, vulputate in purus sit amet, sollicitudin viverra lacus. Maecenas est quam, iaculis eu pulvinar sed, vestibulum at felis. Vivamus varius lobortis velit, et commodo mi condimentum sit amet. Suspendisse interdum, arcu id aliquam suscipit, enim lacus varius metus, vitae tincidunt enim dolor eu ante.</P>
+                                <hr>
+                                <h5>FECHA</h5>
+                            </div>
+                        </td>
+                    </tr>        
+                </table>
             </a>
         </div>
 
-        <div class="experiencia">
+        <div class="experiencia ultimo">
             <a href="https://www.github.com">
-                <div id="experiencia-imagen">
-                    <img src="img/placeholder.png" alt="Imagen de proyecto" width="100">
-                </div>
-                <div id="experiencia-contenido">
-                    <h4>PROYECTO 5</h4>
-                    <hr>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis feugiat iaculis.</P>
-                    <h5>FECHA</h5>
-                </div>
+                <table class="guia-tabla" border="1">
+                    <tr>
+                        <td style="width:40%;">
+                            <div id="experiencia-imagen">
+                                <img src="img/placeholder.png" alt="Imagen de proyecto">
+                            </div>
+                        </td>
+                        <td style="width:60%;">
+                            <div id="experiencia-contenido">
+                                <h4>PROYECTO 5</h4>
+                                <hr>
+                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sapien et elit condimentum venenatis a non tellus. Mauris urna enim, vulputate in purus sit amet, sollicitudin viverra lacus. Maecenas est quam, iaculis eu pulvinar sed, vestibulum at felis. Vivamus varius lobortis velit, et commodo mi condimentum sit amet. Suspendisse interdum, arcu id aliquam suscipit, enim lacus varius metus, vitae tincidunt enim dolor eu ante.</P>
+                                <hr>
+                                <h5>FECHA</h5>
+                            </div>
+                        </td>
+                    </tr>        
+                </table>
             </a>
         </div>
-
     </body>
-
+    <script src="js/script.js"></script>
     <!--IMPORTAR FOOTER--> 
 </html>
